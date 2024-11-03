@@ -18,4 +18,4 @@ Dự án Quản lý Học sinh nhằm xây dựng một hệ thống quản lý 
 
 ## Cài đặt 
 Clone repository: 
-git clone https://github.com/DaoUyen0808/StudentManagement.git
+git clone [https://github.com/DaoUyen0808/StudentManagement.git](https://github.com/DaoUyen0808/StudentManagement.git)
