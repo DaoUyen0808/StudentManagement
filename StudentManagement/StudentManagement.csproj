@@ -95,6 +95,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Managers\ClassesManager.cs" />
     <Compile Include="Managers\DatabaseConfig.cs" />
     <Compile Include="Managers\StudentManager.cs" />
     <Compile Include="Models\Classes.cs" />

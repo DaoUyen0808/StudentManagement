@@ -9,7 +9,7 @@ namespace StudentManagement.Models
     class Classes
     {
         public int ClassID { get; set; }
-        public string className { get; set; }
+        public string ClassName { get; set; }
         public int TeacherID { get; set; }
 
         public Classes()
@@ -19,7 +19,7 @@ namespace StudentManagement.Models
         public Classes(int classID, string className, int teacherID)
         {
             ClassID = classID;
-            this.className = className;
+            this.ClassName = className;
             TeacherID = teacherID;
         }
     }

@@ -10,11 +10,16 @@ namespace StudentManagement.Managers
     class StudentManager
     {
         private readonly DatabaseConfig _databaseConfig;
+        private readonly ClassesManager _classesManager;
 
-        public StudentManager(DatabaseConfig databaseConfig)
+        public StudentManager(DatabaseConfig databaseConfig, ClassesManager classesManager)
         {
             _databaseConfig = databaseConfig;
+            _classesManager = classesManager;
         }
+
+
+
 
         //Lấy toàn bộ danh sách học sinh
         public List<Students> GetAll()
@@ -45,7 +50,9 @@ namespace StudentManagement.Managers
             Console.ResetColor();
             foreach (var student in students)
             {
-                Console.WriteLine($"{student.StudentID,-15} {student.FullName,-30} {student.DateOfBirth.ToShortDateString(),-15} {(student.Gender ? "Nữ" : "Nam"),-10} {student.Address,-25} {student.PhoneNumber,-15} {student.Email,-30} {student.ClassID,-15}");
+                // Lấy tên lớp dựa trên ClassID
+                string className = _classesManager.GetClassName(student.ClassID);
+                Console.WriteLine($"{student.StudentID,-15} {student.FullName,-30} {student.DateOfBirth.ToShortDateString(),-15} {(student.Gender ? "Nữ" : "Nam"),-10} {student.Address,-25} {student.PhoneNumber,-15} {student.Email,-30} {className,- 15}");
             }
 
         }

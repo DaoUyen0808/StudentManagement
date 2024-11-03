@@ -31,6 +31,7 @@ namespace StudentManagement
             Console.Clear(); // Xóa màn hình
             Console.WriteLine("\n===== DỰ ÁN : QUẢN LÝ HỌC SINH =====");
             Console.WriteLine("1. Hiển thị toàn bộ học sinh");
+            Console.WriteLine("2. Hiển thị các lớp học");
             Console.WriteLine("0. Thoát khỏi dự án");
             Console.Write("Chọn chức năng: ");
 
@@ -41,6 +42,9 @@ namespace StudentManagement
                 {
                     case 1:
                         ShowStudentList(databaseConfig);
+                        break;
+                    case 2:
+                        ShowClassList(databaseConfig);
                         break;
 
                     case 0:
@@ -61,8 +65,18 @@ namespace StudentManagement
         static void ShowStudentList(DatabaseConfig databaseConfig)
         {
             Console.Clear(); // Xóa màn hình
-            StudentManager studentManager = new StudentManager(databaseConfig);
+            ClassesManager classesManager = new ClassesManager(databaseConfig);
+            StudentManager studentManager = new StudentManager(databaseConfig, classesManager);
             studentManager.Print();
+            Console.Write("\nNhấn phím bất kỳ để quay lại dự án : ");
+            Console.ReadKey();
+        }
+
+        static void ShowClassList(DatabaseConfig databaseConfig)
+        {
+            Console.Clear(); // Xóa màn hình
+            ClassesManager classesManager = new ClassesManager(databaseConfig);
+            classesManager.Print();
             Console.Write("\nNhấn phím bất kỳ để quay lại dự án : ");
             Console.ReadKey();
         }

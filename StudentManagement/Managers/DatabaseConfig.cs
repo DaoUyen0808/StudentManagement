@@ -37,6 +37,23 @@ namespace StudentManagement.Managers
 
             return results;
         }
+
+        internal string ExecuteScalar(string query, Dictionary<string, object> parameters)
+        {
+            using (var conn = GetConnection())
+            using (var cmd = new MySqlCommand(query, conn))
+            {
+                if (parameters != null)
+                {
+                    foreach (var param in parameters)
+                    {
+                        cmd.Parameters.AddWithValue(param.Key, param.Value);
+                    }
+                }
+
+                return (string)cmd.ExecuteScalar();
+            }
+        }
     }
 
   
