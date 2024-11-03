@@ -1,0 +1,4 @@
+.vs/
+*.cs    text eol=crlf   # Đối với các tệp mã nguồn C#
+*.sh    text eol=lf     # Đối với các tệp shell script
+*.xml   text            # Tự động xử lý kiểu xuống dòng theo hệ điều hành
