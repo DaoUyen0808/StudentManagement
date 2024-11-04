@@ -16,12 +16,13 @@ namespace StudentManagement.Models
         public string PhoneNumber { get; set; }
         public string Email { get; set; }
         public int ClassID { get; set; }
+        public bool IsDeleted { get; set; }
 
         public Students()
         {
         }
 
-        public Students(int studentID, string fullName, DateTime dateOfBirth, bool gender, string address, string phoneNumber, string email, int classID)
+        public Students(int studentID, string fullName, DateTime dateOfBirth, bool gender, string address, string phoneNumber, string email, int classID, bool isDeleted)
         {
             StudentID = studentID;
             FullName = fullName;
@@ -31,6 +32,7 @@ namespace StudentManagement.Models
             PhoneNumber = phoneNumber;
             Email = email;
             ClassID = classID;
+            IsDeleted = isDeleted;
         }
     }
 }

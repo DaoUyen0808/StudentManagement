@@ -20,7 +20,7 @@ namespace StudentManagement.Managers
         //Lấy toàn bộ các giáo viên
         public List<Teachers> GetAll()
         {
-            string query = "SELECT * FROM Teachers";
+            string query = "SELECT * FROM Teachers WHERE IsDeleted=FALSE";
             return _databaseConfig.ExecuteReader(query, reader => new Teachers
             {
                 TeacherID = reader.GetInt32("TeacherID"),

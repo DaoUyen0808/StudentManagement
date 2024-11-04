@@ -11,16 +11,18 @@ namespace StudentManagement.Models
         public int ClassID { get; set; }
         public string ClassName { get; set; }
         public int TeacherID { get; set; }
+        public bool IsDeleted { get; set; }
 
         public Classes()
         {
         }
 
-        public Classes(int classID, string className, int teacherID)
+        public Classes(int classID, string className, int teacherID, bool isDeleted)
         {
             ClassID = classID;
-            this.ClassName = className;
+            ClassName = className;
             TeacherID = teacherID;
+            IsDeleted = isDeleted;
         }
     }
 }

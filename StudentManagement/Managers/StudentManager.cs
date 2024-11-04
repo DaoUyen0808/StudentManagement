@@ -24,7 +24,7 @@ namespace StudentManagement.Managers
         //Lấy toàn bộ danh sách học sinh
         public List<Students> GetAll()
         {
-            string query = "SELECT * FROM STUDENTS";
+            string query = "SELECT * FROM STUDENTS WHERE IsDeleted=FALSE";
             return _databaseConfig.ExecuteReader(query, reader => new Students
             {
                 StudentID = reader.GetInt32("StudentID"),

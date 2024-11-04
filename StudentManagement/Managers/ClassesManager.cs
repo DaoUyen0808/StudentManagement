@@ -23,7 +23,7 @@ namespace StudentManagement.Managers
         //Lấy toàn bộ các lớp học
         public List<Classes> GetAll()
         {
-            string query = "SELECT * FROM CLASSES";
+            string query = "SELECT * FROM CLASSES  WHERE IsDeleted=FALSE";
             return _databaseConfig.ExecuteReader(query, reader => new Classes
             {
                 ClassID = reader.GetInt32("ClassID"),

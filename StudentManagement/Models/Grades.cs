@@ -13,18 +13,20 @@ namespace StudentManagement.Models
         public int SubjectID { get; set; }
         public Semester Semester { get; set; }
         public decimal Grade { get; set; }
+        public bool IsDeleted { get; set; }
 
         public Grades()
         {
         }
 
-        public Grades(int gradeID, int studentID, int subjectID, Semester semester, decimal grade)
+        public Grades(int gradeID, int studentID, int subjectID, Semester semester, decimal grade, bool isDeleted)
         {
             GradeID = gradeID;
             StudentID = studentID;
             SubjectID = subjectID;
             Semester = semester;
             Grade = grade;
+            IsDeleted = isDeleted;
         }
     }
     public enum Semester

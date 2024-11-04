@@ -11,16 +11,18 @@ namespace StudentManagement.Models
         public int SubjectID { get; set; }
         public string SubjectName { get; set; }
         public string Description { get; set; }
+        public bool IsDeleted { get; set; }
 
         public Subjects()
         {
         }
 
-        public Subjects(int subjectID, string subjectName, string description)
+        public Subjects(int subjectID, string subjectName, string description, bool isDeleted)
         {
             SubjectID = subjectID;
             SubjectName = subjectName;
             Description = description;
+            IsDeleted = isDeleted;
         }
     }
 }
