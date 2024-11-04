@@ -11,10 +11,12 @@ namespace StudentManagement.Managers
     class ClassesManager
     {
         private readonly DatabaseConfig _databaseConfig;
+        private readonly TeacherManager _teacherManager;
 
-        public ClassesManager(DatabaseConfig databaseConfig)
+        public ClassesManager(DatabaseConfig databaseConfig, TeacherManager teacherManager)
         {
             _databaseConfig = databaseConfig;
+            _teacherManager = teacherManager;
         }
 
 
@@ -51,11 +53,12 @@ namespace StudentManagement.Managers
             Console.WriteLine("\nDANH SÁCH LỚP HỌC\n");
             // Đặt màu cho tiêu đề
             Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine($"{"Mã lớp",-15} {"Lớp",-30} {"Mã giáo viên",-15} ");
+            Console.WriteLine($"{"Mã lớp",-15} {"Lớp",-30} {"Tên giáo viên",-15} ");
             Console.ResetColor();
             foreach (var classe in classes)
             {
-                Console.WriteLine($"{classe.ClassID,-15} {classe.ClassName,-30} {classe.TeacherID,-15} ");
+                string teacherName = _teacherManager.GetTeacherName(classe.TeacherID);
+                Console.WriteLine($"{classe.ClassID,-15} {classe.ClassName,-30} {teacherName,-15} ");
             }
 
         }

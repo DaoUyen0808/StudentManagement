@@ -98,6 +98,7 @@
     <Compile Include="Managers\ClassesManager.cs" />
     <Compile Include="Managers\DatabaseConfig.cs" />
     <Compile Include="Managers\StudentManager.cs" />
+    <Compile Include="Managers\TeacherManager.cs" />
     <Compile Include="Models\Classes.cs" />
     <Compile Include="Models\Grades.cs" />
     <Compile Include="Models\Students.cs" />
@@ -105,6 +106,7 @@
     <Compile Include="Models\Teachers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\UserInterface.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
