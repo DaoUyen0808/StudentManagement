@@ -61,7 +61,7 @@ INSERT INTO Classes (ClassName, TeacherID) VALUES
 ('7B', 2),
 ('8C', 3);
 
-INSERT INTO Students (FullName, DateOfBirth, Gender, Adress, PhoneNumber, Email, ClassID) VALUES 
+INSERT INTO Students (FullName, DateOfBirth, Gender, Address, PhoneNumber, Email, ClassID) VALUES 
 ('Nguyễn Thị Thùy Trang', '2002-04-01', 1, '123 Đường A', '0123456789', 'an.nguyen@example.com', 1),
 ('Vũ Thị Hải Yến', '2002-05-02', 1, '456 Đường B', '0987654321', 'binh.tran@example.com', 2),
 ('Tô Thị Anh', '2002-06-03', 1, '789 Đường C', '0112233445', 'cuong.le@example.com', 3);
