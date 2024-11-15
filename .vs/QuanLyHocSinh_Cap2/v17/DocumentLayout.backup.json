@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LapTrinh_HuongDoiTuong\\DuAn_CuoiMon\\QuanLyHocSinh_Cap2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B1FD17-9176-4E04-96DE-9A74349909EE}|QuanLyHocSinh_Cap2\\QuanLyHocSinh_Cap2.csproj|d:\\laptrinh_huongdoituong\\duan_cuoimon\\quanlyhocsinh_cap2\\quanlyhocsinh_cap2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5B1FD17-9176-4E04-96DE-9A74349909EE}|QuanLyHocSinh_Cap2\\QuanLyHocSinh_Cap2.csproj|solutionrelative:quanlyhocsinh_cap2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B1FD17-9176-4E04-96DE-9A74349909EE}|QuanLyHocSinh_Cap2\\QuanLyHocSinh_Cap2.csproj|d:\\laptrinh_huongdoituong\\duan_cuoimon\\quanlyhocsinh_cap2\\quanlyhocsinh_cap2\\linq\\truyvanhocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5B1FD17-9176-4E04-96DE-9A74349909EE}|QuanLyHocSinh_Cap2\\QuanLyHocSinh_Cap2.csproj|solutionrelative:quanlyhocsinh_cap2\\linq\\truyvanhocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B1FD17-9176-4E04-96DE-9A74349909EE}|QuanLyHocSinh_Cap2\\QuanLyHocSinh_Cap2.csproj|d:\\laptrinh_huongdoituong\\duan_cuoimon\\quanlyhocsinh_cap2\\quanlyhocsinh_cap2\\data\\qlhsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5B1FD17-9176-4E04-96DE-9A74349909EE}|QuanLyHocSinh_Cap2\\QuanLyHocSinh_Cap2.csproj|solutionrelative:quanlyhocsinh_cap2\\data\\qlhsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QLHSDBContext.cs",
+              "DocumentMoniker": "D:\\LapTrinh_HuongDoiTuong\\DuAn_CuoiMon\\QuanLyHocSinh_Cap2\\QuanLyHocSinh_Cap2\\Data\\QLHSDBContext.cs",
+              "RelativeDocumentMoniker": "QuanLyHocSinh_Cap2\\Data\\QLHSDBContext.cs",
+              "ToolTip": "D:\\LapTrinh_HuongDoiTuong\\DuAn_CuoiMon\\QuanLyHocSinh_Cap2\\QuanLyHocSinh_Cap2\\Data\\QLHSDBContext.cs",
+              "RelativeToolTip": "QuanLyHocSinh_Cap2\\Data\\QLHSDBContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA7wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T03:12:28.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TruyVanHocSinh.cs",
+              "DocumentMoniker": "D:\\LapTrinh_HuongDoiTuong\\DuAn_CuoiMon\\QuanLyHocSinh_Cap2\\QuanLyHocSinh_Cap2\\LinQ\\TruyVanHocSinh.cs",
+              "RelativeDocumentMoniker": "QuanLyHocSinh_Cap2\\LinQ\\TruyVanHocSinh.cs",
+              "ToolTip": "D:\\LapTrinh_HuongDoiTuong\\DuAn_CuoiMon\\QuanLyHocSinh_Cap2\\QuanLyHocSinh_Cap2\\LinQ\\TruyVanHocSinh.cs*",
+              "RelativeToolTip": "QuanLyHocSinh_Cap2\\LinQ\\TruyVanHocSinh.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T02:47:57.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\LapTrinh_HuongDoiTuong\\DuAn_CuoiMon\\QuanLyHocSinh_Cap2\\QuanLyHocSinh_Cap2\\Program.cs",
+              "RelativeDocumentMoniker": "QuanLyHocSinh_Cap2\\Program.cs",
+              "ToolTip": "D:\\LapTrinh_HuongDoiTuong\\DuAn_CuoiMon\\QuanLyHocSinh_Cap2\\QuanLyHocSinh_Cap2\\Program.cs*",
+              "RelativeToolTip": "QuanLyHocSinh_Cap2\\Program.cs*",
+              "ViewState": "AgIAADAAAAAAAAAAAAAvwF0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T16:10:27.703Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

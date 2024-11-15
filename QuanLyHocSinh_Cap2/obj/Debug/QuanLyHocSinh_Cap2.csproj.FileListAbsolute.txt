@@ -1,0 +1,7 @@
+D:\LapTrinh_HuongDoiTuong\DuAn_CuoiMon\QuanLyHocSinh_Cap2\QuanLyHocSinh_Cap2\bin\Debug\QuanLyHocSinh_Cap2.exe.config
+D:\LapTrinh_HuongDoiTuong\DuAn_CuoiMon\QuanLyHocSinh_Cap2\QuanLyHocSinh_Cap2\bin\Debug\QuanLyHocSinh_Cap2.exe
+D:\LapTrinh_HuongDoiTuong\DuAn_CuoiMon\QuanLyHocSinh_Cap2\QuanLyHocSinh_Cap2\bin\Debug\QuanLyHocSinh_Cap2.pdb
+D:\LapTrinh_HuongDoiTuong\DuAn_CuoiMon\QuanLyHocSinh_Cap2\QuanLyHocSinh_Cap2\obj\Debug\QuanLyHocSinh_Cap2.csproj.AssemblyReference.cache
+D:\LapTrinh_HuongDoiTuong\DuAn_CuoiMon\QuanLyHocSinh_Cap2\QuanLyHocSinh_Cap2\obj\Debug\QuanLyHocSinh_Cap2.csproj.CoreCompileInputs.cache
+D:\LapTrinh_HuongDoiTuong\DuAn_CuoiMon\QuanLyHocSinh_Cap2\QuanLyHocSinh_Cap2\obj\Debug\QuanLyHocSinh_Cap2.exe
+D:\LapTrinh_HuongDoiTuong\DuAn_CuoiMon\QuanLyHocSinh_Cap2\QuanLyHocSinh_Cap2\obj\Debug\QuanLyHocSinh_Cap2.pdb
