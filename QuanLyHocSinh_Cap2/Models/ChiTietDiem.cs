@@ -9,13 +9,15 @@ namespace QuanLyHocSinh_Cap2.Models
 
     public class ChiTietDiem
     {
-        public string MaMon { get; set; }
-        public string MaLoaiKT { get; set; }
-        public string MaDiem { get; set; }
-        public double DiemSo { get; set; }
-        public Diem Diem { get; set; }
+        public int MaMon { get; set; }
+        public int MaLoaiKT { get; set; }
+        public int MaDiem { get; set; }
+        public float DiemSo { get; set; }
+
         public MonHoc MonHoc { get; set; }
         public LoaiKiemTra LoaiKiemTra { get; set; }
+        public Diem Diem { get; set; }
     }
+
 
 }

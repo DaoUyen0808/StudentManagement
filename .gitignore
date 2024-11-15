@@ -1,0 +1,8 @@
+.vs/
+bin/
+obj/
+*.suo
+*.wsuo
+*.sqlite
+*.exe
+*.pdb

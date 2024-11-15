@@ -8,8 +8,9 @@ namespace QuanLyHocSinh_Cap2.Models
 {
     public class LoaiKiemTra
     {
-        public string MaLoaiKT { get; set; }
+        public int MaLoaiKT { get; set; }
         public string TenLoaiKT { get; set; }
+
         public List<ChiTietDiem> ChiTietDiems { get; set; } = new List<ChiTietDiem>();
     }
 }

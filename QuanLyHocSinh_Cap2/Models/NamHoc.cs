@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace QuanLyHocSinh_Cap2.Models
 {
-    public class HocKy
+    public class NamHoc
     {
-        public int MaHK { get; set; }
-        public string TenHK { get; set; }
+        public int MaNH { get; set; }
+        public string namHoc { get; set; }
 
-        public List<Diem> Diems { get; set; } = new List<Diem>();
+        public List<Khoi> Khois { get; set; } = new List<Khoi>();
     }
 }

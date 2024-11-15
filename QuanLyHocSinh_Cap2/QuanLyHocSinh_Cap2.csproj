@@ -60,6 +60,7 @@
     <Compile Include="Models\LoaiKiemTra.cs" />
     <Compile Include="Models\Lop.cs" />
     <Compile Include="Models\MonHoc.cs" />
+    <Compile Include="Models\NamHoc.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
