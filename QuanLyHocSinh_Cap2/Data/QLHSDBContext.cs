@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -98,5 +99,8 @@ namespace QuanLyHocSinh_Cap2.Data
             ChiTietDiem ctd5 = new ChiTietDiem { MaMon = mon5.MaMon, MaLoaiKT = loaiKT5.MaLoaiKT, MaDiem = diem5.MaDiem, DiemSo = 8.0f, MonHoc = mon5, LoaiKiemTra = loaiKT5, Diem = diem5 };
             ChiTietDiems.AddRange(new List<ChiTietDiem> { ctd1, ctd2, ctd3, ctd4, ctd5 });
         }
+
+       
+
     }
 }

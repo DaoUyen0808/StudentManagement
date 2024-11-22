@@ -23,7 +23,7 @@ namespace QuanLyHocSinh_Cap2.LinQ
     public class TruyVanHocSinh
     {
         // Khởi tạo đối tượng QLHSDBContext để có thể truy cập dữ liệu
-        private QLHSDBContext dbContext = new QLHSDBContext();
+      //  private QLHSDBContext dbContext = new QLHSDBContext();
 
         public void ShowKhoi(List<Khoi> khois)
         {
@@ -37,5 +37,6 @@ namespace QuanLyHocSinh_Cap2.LinQ
             Console.ReadKey();
         }
 
+  
     }
 }
